@@ -4,7 +4,7 @@
  *  It allows to pass :params parameter to options of link_to ActionView helper and send values as form data.
  *
  *  Example code: 
- *            <%= link_to 'Main page', root_path, :remote => true, :params => "ref=#{request.fullpath}", :method => "post" %>
+ *            <%= link_to 'Main page', root_path, :remote => true, :params => "ref=#{request.fullpath}", :method => "post"
  *        
  *  Renders to:
  *            <a href="/" data-remote="true" data-method="post" data-query-string="ref=/articles/1">Main page</a>  
@@ -14,7 +14,7 @@
  *  You can also use JSON-encoded hashes for multiple params.
  *  Example code:
  *            <%- data = {:ref => request.fullpath, :user_id => current_user.id} %>
- *            <%= link_to 'Main page', root_path, :remote => true, :params => data.to_json, :method => "post" %>
+ *            <%= link_to 'Main page', root_path, :remote => true, :params => data.to_json, :method => "post"
  *        
  *  Renders to:
  *            <a href="/" data-remote="true" data-method="post" data-query-string="ref=/articles/1">Main page</a> 
