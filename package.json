@@ -1,12 +1,21 @@
 {
   "name": "ujs-query-data",
-  "version": "0.0.2",
+  "description": "JavaScript helper for jQuery unobtrusive adapter",
+  "keywords": ["jquery", "unobtrusive", "helper", "form data"],
+  "author": "Alexander 'yumitsu' Zinchenko <yumitsu@mouseed.com> (https://github.com/yumitsu)",
+  "contributors": ["Forgotten Labors Initiative <forlab-public@mouseed.com> (https://github.com/forgotten-labors)"],
+  "files": "['README.md', 'Cakefile', 'package.json', 'src/', 'src/ujs-query-data.coffee', 'pkg/', 'pkg/ujs-query-data.min.js', 'pkg/ujs-query-data.src.js']",
+  "homepage": "https://github.com/yumitsu/ujs-query-data",
+  "repository": {"type": "git", "url": "https://github.com/yumitsu/ujs-query-data.git"},
+  "bugs": {"url":   "https://github.com/yumitsu/ujs-query-data/issues", "email": "forlab-public@mouseed.com"},
+  "version": "0.0.3",
   "devDependencies": {
     "coffee-script":  "1.1.2",
     "uglify-js":      "1.0.6",
     "jquery":         "1.6.2",
     "watch-tree":     "0.1.1",
     "graceful-fs":    "1.1.2",
-    "rimraf":         "1.0.9"
+    "rimraf":         "1.0.9",
+    "color-terminal": "0.0.3-2"
   }
 }

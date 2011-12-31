@@ -19,7 +19,8 @@
  *  Renders to:
  *            <a href="/" data-remote="true" data-method="post" data-query-string="ref=/articles/1">Main page</a> 
  *
- *  @version  0.0.1
+ *  @version  0.0.2
+ *  @license  MIT license <http://opensource.org/licenses/mit-license.php>
  *  @author   Alexander 'yumitsu' Zinchenko
  *  @url      https://github.com/yumitsu/ujs-query-data
  */
